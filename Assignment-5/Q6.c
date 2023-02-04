@@ -1,4 +1,4 @@
-// Write a program to print MySirG N times on the screen
+// Write a program to print the first N even natural numbers
 #include<stdio.h>
 int main()
 {
@@ -6,6 +6,6 @@ int main()
     printf("Enter n :");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
-     printf("MySirG\n");
+     printf("%d ",2*i);
      return 0;
 }
