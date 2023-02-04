@@ -1,4 +1,4 @@
-// Write a program to find the Nth term of the Fibonnaci series
+// Write a program to print first N terms of Fibonacci series
 #include<stdio.h>
 int main()
 {
@@ -7,13 +7,11 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-      if(i == n)
-        break;
+      printf("%d ",z);
        x=y;
        y=z;
        z=x+y;
     }
-     printf("%d",z);
     
     return 0;
 }
